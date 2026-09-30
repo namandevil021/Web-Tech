@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="device-width">
+       <title>BOOK SURVEY FORM</title>
+    </head>
+    <body>
+        <h1 align="center">School Bookstore Survey</h1>
+
+        <form>
+
+            <h2>Reader Details</h2>
+
+             Name:<br>
+            <input type="text" name="name"><br>
+            Address:<br>
+            <input type="text" name="address"><br>
+            City:<br>
+            <input type="text" name="city"><br>
+            Pin code:<br>
+            <input type="text" name="pin"><br>
+            Email ID:<br>
+            <input type="email" name="email"><br>
+
+            <h2>Book Buying Survey</h2>
+
+            <h4>From where you usually buy your books?</h4><br>
+
+            <input type="radio" name="place" value="bookstore">
+            School Bookstore<br>
+            <input type="radio" name="place" value="online">
+            Online Store<br>
+            <input type="radio" name="place" value="other">
+            Other<br>
+            <h4>How often do you buy books?</h4><br>
+            <select name="Time">
+            <option>Weekly</option>
+            <option>Monthly</option>
+            <option>Every 3 Months</option>
+            <option>Rarely</option>
+            </select><br>
+
+            <h4> How much do you usually spend on books monthly?</h4><br>
+
+            <select>
+                <option>Below ₹500</option>
+                <option>₹500 - ₹1000</option>
+                <option>₹1000 - ₹2000</option>
+                <option>Above ₹2000</option>
+            </select><br>
+
+            <h4>What type of books do you usually read or buy?</h4><br>
+
+            <input type="checkbox" name="book"> Academic Books<br>
+            <input type="checkbox" name="book"> Fiction<br>
+            <input type="checkbox" name="book"> Reference Books<br>
+            <input type="checkbox" name="book"> Other<br><br>
+
+            <h4>Feedback</h4><br>
+
+            <textarea rows="5" cols="40"></textarea><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset" >
+        </form>    
+            
+    </body>
+</html> 
